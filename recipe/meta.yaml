@@ -1,5 +1,5 @@
 {% set name = "rejson" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rejson-{{ version }}.tar.gz
-  sha256: 0fd0933412c36f7928d6072efc7d795368342344fc19698341604414cfbc2e6e
+  sha256: 2e29444da6e939008374466812e96c7d9c6cf6e75a6e4928391575245353daa3
 
 build:
   number: 0
